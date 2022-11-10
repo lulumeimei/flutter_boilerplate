@@ -1,6 +1,6 @@
-import 'package:assessment/config/app_environments/app_env.dart';
-import 'package:assessment/presentation/blocs/bloc/counter_bloc.dart';
-import 'package:assessment/presentation/widgets/homepage/counter_text_widget.dart';
+import 'package:boilerplate/config/app_environments/app_env.dart';
+import 'package:boilerplate/presentation/blocs/bloc/counter_bloc.dart';
+import 'package:boilerplate/presentation/widgets/homepage/counter_text_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

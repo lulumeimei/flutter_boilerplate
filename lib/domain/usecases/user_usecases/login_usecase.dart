@@ -1,7 +1,7 @@
-import 'package:assessment/core/usecase.dart';
-import 'package:assessment/data/failure.dart';
-import 'package:assessment/domain/entities/user.dart';
-import 'package:assessment/domain/repositories/user_repository.dart';
+import 'package:boilerplate/core/usecase.dart';
+import 'package:boilerplate/data/failure.dart';
+import 'package:boilerplate/domain/entities/user.dart';
+import 'package:boilerplate/domain/repositories/user_repository.dart';
 import 'package:dartz/dartz.dart';
 
 class LoginUsecase implements UseCase<User, LoginUsecaseParams> {

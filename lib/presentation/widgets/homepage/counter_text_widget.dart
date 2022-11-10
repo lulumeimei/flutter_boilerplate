@@ -1,4 +1,4 @@
-import 'package:assessment/presentation/blocs/bloc/counter_bloc.dart';
+import 'package:boilerplate/presentation/blocs/bloc/counter_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

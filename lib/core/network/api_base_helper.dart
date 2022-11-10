@@ -1,4 +1,4 @@
-import 'package:assessment/config/app_environments/app_env.dart';
+import 'package:boilerplate/config/app_environments/app_env.dart';
 import 'package:dio/dio.dart';
 
 abstract class ApiBaseHelper {

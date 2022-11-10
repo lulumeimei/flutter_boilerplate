@@ -1,9 +1,9 @@
 import 'dart:io';
 
-import 'package:assessment/data/datasources/remote/user_apiservice.dart';
-import 'package:assessment/data/failure.dart';
-import 'package:assessment/domain/entities/user.dart';
-import 'package:assessment/domain/usecases/user_usecases/login_usecase.dart';
+import 'package:boilerplate/data/datasources/remote/user_apiservice.dart';
+import 'package:boilerplate/data/failure.dart';
+import 'package:boilerplate/domain/entities/user.dart';
+import 'package:boilerplate/domain/usecases/user_usecases/login_usecase.dart';
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 

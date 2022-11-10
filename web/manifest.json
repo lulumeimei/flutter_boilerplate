@@ -1,6 +1,6 @@
 {
-    "name": "assessment",
-    "short_name": "assessment",
+    "name": "boilerplate",
+    "short_name": "boilerplate",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

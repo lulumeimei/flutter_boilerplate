@@ -1,4 +1,4 @@
-import 'package:assessment/presentation/blocs/bloc/counter_bloc.dart';
+import 'package:boilerplate/presentation/blocs/bloc/counter_bloc.dart';
 import 'package:get_it/get_it.dart';
 
 final injector = GetIt.instance;

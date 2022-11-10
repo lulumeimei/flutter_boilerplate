@@ -1,4 +1,4 @@
-package com.example.assessment
+package com.example.boilerplate
 
 import io.flutter.embedding.android.FlutterActivity
 

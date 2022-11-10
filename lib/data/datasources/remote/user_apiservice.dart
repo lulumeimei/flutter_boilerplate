@@ -1,5 +1,5 @@
-import 'package:assessment/data/models/user_model.dart';
-import 'package:assessment/domain/usecases/user_usecases/login_usecase.dart';
+import 'package:boilerplate/data/models/user_model.dart';
+import 'package:boilerplate/domain/usecases/user_usecases/login_usecase.dart';
 import 'package:dio/dio.dart';
 
 abstract class UserApiService {

@@ -1,4 +1,4 @@
-import 'package:assessment/domain/entities/user.dart';
+import 'package:boilerplate/domain/entities/user.dart';
 
 class UserModel extends User {
   const UserModel({
