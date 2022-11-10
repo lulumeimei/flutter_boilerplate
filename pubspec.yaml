@@ -1,0 +1,52 @@
+name: assessment
+description: A new Flutter project.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.4 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  dio: ^4.0.6
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  flutter_dotenv: ^5.0.2
+  flutter_localizations:
+    sdk: flutter
+  get_it: ^7.2.0
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_flavorizr: ^2.1.5
+  flutter_test:
+    sdk: flutter
+  http_mock_adapter: ^0.3.3
+
+flavorizr:
+  flavors:
+    staging:
+      app:
+        name: "Staging App"
+      android:
+        applicationId: "com.staging.boilerplate"
+      ios:
+        bundleId: "com.staging.boilerplate"
+
+    production:
+      app:
+        name: "Production App"
+      android:
+        applicationId: "com.production.boilerplate"
+      ios:
+        bundleId: "com.production.boilerplate"
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - .production.env
+    - .staging.env

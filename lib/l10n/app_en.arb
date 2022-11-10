@@ -1,0 +1,16 @@
+{
+    "language": "English",
+    "@language": {
+        "description": "Language of the resource"
+    },
+    "hello": "Hello {username}",
+    "@hello": {
+        "description": "Greeting message",
+        "placeholders": {
+            "username": {
+                "content": "{username}",
+                "example": "John"
+            }
+        }
+    }
+}
