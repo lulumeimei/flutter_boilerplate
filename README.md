@@ -22,22 +22,22 @@ api_v1=/api/v1
 - Configure your app environments in `pubspec.yaml`
 ```yaml
 flavorizr:
-	flavors:
-		staging:
-			app:
-				name: "Staging App"
-			android:
-				applicationId: "com.staging.boilerplate"
-			ios:
-				bundleId: "com.staging.boilerplate"
-		  
-		production:
-			app:
-				name: "Production App"
-			android:
-				applicationId: "com.production.boilerplate"
-			ios:
-				bundleId: "com.production.boilerplate"
+  flavors:
+    staging:
+      app:
+        name: "Staging App"
+      android:
+        applicationId: "com.staging.boilerplate"
+      ios:
+        bundleId: "com.staging.boilerplate"
+
+    production:
+      app:
+        name: "Production App"
+      android:
+        applicationId: "com.production.boilerplate"
+      ios:
+        bundleId: "com.production.boilerplate"
 ```
 
 - Run this command on terminal to generate environments
